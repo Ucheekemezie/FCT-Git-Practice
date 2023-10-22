@@ -27,3 +27,21 @@ print(x + " " + y) # to join with space between the two variables
 x = 23
 y = 'My age is {}'
 print(y.format(x))
+# Python Operators
+x = 2
+y = 4
+print(x+y) # Addition
+print(x%y) # Modulos
+print(y%x)
+print(x**y) # Exponential
+print(x//y)
+print(y//x) # Floor Division
+# Escape Characters
+x = 'hello \n world' # New line
+print(x)
+x = '\'hello world\'' # Single quote
+print(x)
+x = '\\hello world\\' # Backlash
+print(x)
+x = 'hello\rworld' # Carriage return
+print(x)
